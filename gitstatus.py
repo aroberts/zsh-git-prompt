@@ -14,7 +14,6 @@ SYM_NOUPSTREAM = '..'
 # This symbol appears before hashes when detached
 SYM_PREHASH = os.environ.get('ZSH_THEME_GIT_PROMPT_HASH_PREFIX', ':')
 
-
 def find_git_root():
     """
     Find the nearest enclosing git root (i.e. the path to .git).
