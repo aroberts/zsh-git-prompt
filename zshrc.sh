@@ -130,8 +130,8 @@ add-zsh-hook precmd precmd_update_git_vars
 
 # Default values for the appearance of the prompt.
 # The theme is identical to magicmonty/bash-git-prompt
-ZSH_THEME_GIT_PROMPT_PREFIX="["
-ZSH_THEME_GIT_PROMPT_SUFFIX="]"
+ZSH_THEME_GIT_PROMPT_PREFIX="("
+ZSH_THEME_GIT_PROMPT_SUFFIX=")"
 ZSH_THEME_GIT_PROMPT_HASH_PREFIX=":"
 ZSH_THEME_GIT_PROMPT_SEPARATOR="|"
 ZSH_THEME_GIT_PROMPT_BRANCH="%{$fg_bold[magenta]%}"
